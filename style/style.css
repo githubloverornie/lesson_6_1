@@ -1,0 +1,49 @@
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 200px);
+}
+
+.item_1{
+grid-column: span 3;
+grid-row: span 2;
+background-color: pink;
+}
+
+.item_blue{
+    grid-column: span 2;
+    background-color: rgb(22, 154, 242);
+}
+
+.item_red{
+    grid-column: span 5;
+    background-color: red;
+}
+
+.item_blue_2{
+    grid-row: span 2;
+    background-color: rgb(22, 154, 242);
+}
+
+.item_blue_3{
+    background-color: blue;
+}
+
+.item_blue_4{
+    background-color: blue;
+}
+
+.item_blue_1_1{
+    grid-column: span 2;
+    background-color:  rgb(22, 154, 242);
+}
+
+.item_blue_5{
+    background-color: blue;
+}
+
+.item_last{
+    grid-column: span 3;
+    background-color: green;
+}
